@@ -445,7 +445,7 @@ SettlersView.prototype.drawDice = function() {
 
 SettlersView.prototype.drawRobber = function() {
     if (!this.robber) {
-        var texture = PIXI.Texture.fromImage('assets/settlers/robber.png');
+        var texture = PIXI.Texture.fromImage('assets/robber.png');
         this.robber = new PIXI.Sprite(texture);
         this.robber.width = 20;
         this.robber.height = 50;

@@ -1,5 +1,5 @@
-var TableTop = require('../../lib/TableTop/bundle'),
-    inherits = require('util').inherits;
+var TableTop = require('tabletop-boardgames');
+var inherits = require('util').inherits;
 
 function SettlersEdgeTile(start, end) {
   TableTop.EdgeTile.call(this, start, end);
